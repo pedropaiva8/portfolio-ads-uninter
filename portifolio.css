@@ -1,3 +1,5 @@
+/* Setando algumas propriedades para a página inteira */
+
 *{
     padding: 0;
     margin: 0;
@@ -6,6 +8,9 @@
     background-color: #16171d;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
+
+
+/* Alinhando o cabeçalho e a barra de navegação, utilizando o recurso "flex" */
 
 header{
     display: flex;
@@ -42,6 +47,8 @@ nav ul li a:hover{
     color: orange;
     transition: .5s;
 }
+
+/* Estilizando a parte principal da página, alinhando, definindo cores e colocando alguns efeitos */
 
 h1{
     color: orange;
