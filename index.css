@@ -89,3 +89,32 @@ p{
     transform: scale(1.05);
     transition: .5s;
 }
+
+
+@media(max-width: 782px){
+    body{
+        margin-bottom: 8%;
+    }
+    .sobre-mim{
+        display: flex;
+        flex-direction: column;
+        height: 80vh;
+        align-items: center;
+        justify-content: space-around;
+        padding-right: 8%;
+        padding-left: 8%;
+        padding-top: 8%;
+        margin-bottom: 10%;
+        gap: 8%;
+    }
+
+    .p-letter{
+        height: 200px;
+        border-radius: 50%;
+        border: solid 5px white;
+        transition: .5s;
+    }
+    .apresentacao{
+        width: 100%;
+    }
+}
